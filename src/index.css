@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.slick-slide > div {
+    margin: 0 10px;
+}
+
+.slick-dots{
+    bottom: -45px !important; 
+}
+.slick-dots li button:before {
+    color: #0E4669 !important;
+    font-size: 10px !important;
+}
