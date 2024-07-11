@@ -1,9 +1,10 @@
 import React from 'react'
-import Swiper from './Swiper';
+import SlideShow from './SlideShow';
 const Hero = () => {
   return (
     <div>
-        <Swiper/>
+        {/* <Swiper/> */}
+        <SlideShow/>
     </div>
   )
 }

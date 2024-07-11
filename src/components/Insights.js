@@ -8,7 +8,6 @@ const Insights = () => {
     const settings = {
         dots: true,
         infinite: true,
-        speed: 300,
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
@@ -96,9 +95,8 @@ const Insights = () => {
             <h1 className='text-4xl uppercase font-bold text-center text-[#0E4669]'>Insights</h1>
             <div className='mt-20'>
                 <Slider {...settings}>
-                    {data.map((d) => (
-                        <div className='bg-[#0E4669] h-full text-white rounded-xl'>
-
+                    {data.map((d, index) => (
+                        <div key={index} className='bg-[#0E4669] h-full text-white rounded-xl'>
                             <div className='flex flex-col justify-center text-left gap-4 p-4 '>
                                 <h5 className='text-xl font-semibold '>{d.name}</h5>
                                 <p className='text-sm' dangerouslySetInnerHTML={{ __html: d.about }} />

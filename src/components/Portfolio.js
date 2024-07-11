@@ -31,10 +31,10 @@ const Portfolio = () => {
             <div className="text-[16px] text-justify">
               <p className='mb-3'>Sanghi Industries Limited, a company jointly promoted by the Sanghi Family and the Adani Group, is among India's leading cement companies. It has one of the largest single location cement plants in India. Equipped with multi-fuel technology, this fully integrated plant includes captive facilities viz. a Thermal Power Plant, all weather Port, Sea terminals at Gujarat & Mumbai and own vessels to cater to demand of its markets. The Company possesses one of the largest limestone reserves in the country. Due to the high quality of its mineral reserves and advanced manufacturing technology, it can produce superior grades of Cement while maintaining the lowest production cost. Its commitment to positive transformation has resulted in converting the arid landscape of the nearby area into a green and clean zone. The Company is recognized for its best practices in environment management & corporate citizenship and is committed to building the nation with goodness. </p>
             </div>
-            
+
           </div>
         </div>
-
+        
         <div className='bg-white rounded'>
           <a href="#" className="block">
             <img src={ShareSquare} alt="Samruddhi" className="w-full h-full object-cover transition duration-300 ease-in-out" />
@@ -96,7 +96,7 @@ const Portfolio = () => {
           </div>
         </div>
       </div>
-      </div>
+    </div>
     </section>
   );
 };

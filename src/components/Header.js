@@ -2,14 +2,12 @@ import React, { useState } from 'react';
 import { BookOpenIcon, Bars3BottomRightIcon, XMarkIcon } from '@heroicons/react/24/solid';
 import logo from '../assets/Portfolio/logo.png'
 import { Link } from 'react-router-dom';
-import Owner from './Owner';
-
 const Header = () => {
   const Manu = [
     { name: "HOME", link: "/" },
     { name: "PORTFOLIO", link: "/portfolio" },
-    { name: "CAREERS", link: "/career" },
-    { name: "ABOUT", link: "/about" },
+    { name: "CAREER", link: "/career" },
+    { name: "ABOUT US", link: "/about" },
   ];
 
   const [open, setOpen] = useState(false);

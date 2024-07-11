@@ -14,3 +14,19 @@
     color: #0E4669 !important;
     font-size: 10px !important;
 }
+
+.swiper-button-prev,
+.swiper-button-next {
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  cursor: pointer;
+  width: 24px !important; /* even smaller width */
+  height: 24px !important; /* even smaller height */
+}
+.swiper-container .swiper-button-prev {
+    left: 10px !important;
+  }
+  .swiper-container .swiper-button-next {
+    right: 10px !important;
+  }
