@@ -1,5 +1,5 @@
 {
-  "homepage": "/",
+  "homepage": "http://100hn.github.io/react-web/",
   "name": "main-res",
   "version": "0.1.0",
   "private": true,
@@ -23,7 +23,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -r http://100hn.github.io/react-web/",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
