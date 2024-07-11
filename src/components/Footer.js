@@ -1,5 +1,5 @@
 import React from 'react';
-import { FacebookIcon, LinkedinIcon,InstapaperIcon } from 'react-share';
+import { FaInstagram,FaFacebook, FaLinkedin } from "react-icons/fa6";
 
 import blogpost1 from '../components/Image/blog/1.jpg'
 import blogpost2 from '../components/Image/blog/2.jpg'
@@ -57,15 +57,15 @@ const Footer = () => {
       </div>
       <div className="lg:flex lg:justify-between lg:items-center mb-4">
         <p className="text-sm font-bold">2024 ResoluteCorp, All rights reserved</p>
-        <div className="flex lg:justify-end gap-1">
+        <div className="flex lg:justify-end gap-2">
           <a href="https://www.facebook.com/yourfacebookpage" target="_blank" rel="noreferrer">
-            <FacebookIcon size={32} round={true} />
+            <FaFacebook size={30} round={true} />
           </a>
           <a href="https://www.linkedin.com/company/yourlinkedinpage" target="_blank" rel="noreferrer">
-            <LinkedinIcon size={32} round={true} />
+            <FaLinkedin size={30} round={true} />
           </a>
           <a href="https://twitter.com/yourtwitterhandle" target="_blank" rel="noreferrer">
-            <InstapaperIcon size={32} round={true} />
+            <FaInstagram size={30} round={true} />
           </a>
         </div>
       </div>

@@ -9,7 +9,7 @@ import portfolioBg from '../components/Image/Resolute-UI-Portfolio.jpg'
 const Portfolio = () => {
   return (
     <section className=" bg-[#F4F5F6]">
-      <div className='max-w-[1300px] mx-auto '>
+      <div className='max-w-[1300px] mx-auto pb-6 '>
         <div className='bg-[#0E4669] text-white py-16 px-8 pt-6 h-410 md:p-6 lg:p-12'
         style={{
           backgroundImage: `url(${portfolioBg})`,

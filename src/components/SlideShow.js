@@ -36,7 +36,7 @@ const SlideShow = () => {
           <img
             src={image1}
             alt="Slide 1"
-            className=" w-full md:h-[700px] object-cover"
+            className=" w-full md:h-[700px] h-[300px] object-cover"
           />
           <div className="absolute max-w-[1300px] mx-auto md:left-[8%] top-1/2 -translate-y-1/2 p-6 text-white">
             <h2 className="md:text-4xl font-bold text-xl mb-2 capitalize">Fueling Innovation, <br />Empowering <br />Tomorrow</h2>
@@ -51,7 +51,7 @@ const SlideShow = () => {
           <img
             src={image2}
             alt="Slide 2"
-            className="w-full md:h-[700px]"
+            className="w-full md:h-[700px] h-[300px] object-cover"
           />
           <div className="absolute md:left-[9%] top-1/2 -translate-y-1/2 p-6 text-white">
             <h2 className="md:text-4xl font-bold mb-2 text-xl capitalize">Progress is<br/> vitality</h2>
@@ -64,7 +64,7 @@ const SlideShow = () => {
           <img
             src={image3}
             alt="Slide 3"
-            className="w-full md:h-[700px]"
+            className="w-full md:h-[700px] h-[300px] object-cover"
           />
           <div className="absolute md:left-[9%] top-1/2 -translate-y-1/2 p-6 text-white">
             <h2 className="md:text-4xl font-bold mb-2 text-xl capitalize">Powering <br/>Possibilities,<br />Shaping Futures</h2>

@@ -101,7 +101,7 @@ const Insights = () => {
                                 <h5 className='text-xl font-semibold '>{d.name}</h5>
                                 <p className='text-sm' dangerouslySetInnerHTML={{ __html: d.about }} />
                                 <div className='flex justify-between'>
-                                    <a href='' className=''>{`By: ${d.author}`}</a>
+                                    <span className=''>{`By: ${d.author}`}</span>
                                     <span>{d.date}</span>
                                 </div>
                             </div>

@@ -17,7 +17,7 @@ const Owner = () => {
         </div>
         {/* Right Side  */}
         <div className='grid h-full'>
-            <img className='object-cover w-full p-2' src={onwerimg} alt='Owner Image'></img>
+            <img className='object-cover w-full p-1 shadow-md rounded' src={onwerimg} alt='Owner Image'></img>
         </div>
     </div>
     </div>

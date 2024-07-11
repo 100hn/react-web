@@ -8,6 +8,7 @@ import About from './components/About';
 import Career from './components/Career';
 import Home from './components/Home';
 import Pitch from './components/Pitch';
+import { Suspense } from 'react';
 
 
 function App() {
@@ -16,7 +17,14 @@ function App() {
       <BrowserRouter>
         <Header />
         <Routes>
-          <Route index element={<Home />} />
+          {/* <Route index element={<Home />} /> */}
+          <Route path='/' element={
+            <Suspense fallback={<div>Components are loading please wait....</div>}
+            >
+              <Home/>
+            </Suspense>
+          }
+          />
           <Route path="/about" element={<About />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/career" element={<Career />} />
