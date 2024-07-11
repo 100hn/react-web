@@ -1,12 +1,11 @@
 {
   "files": {
-    "main.css": "/react-web/static/css/main.9f2e241c.css",
-    "main.js": "/react-web/static/js/main.167e8ea9.js",
+    "main.css": "/react-web/static/css/main.3b494880.css",
+    "main.js": "/react-web/static/js/main.b558d4ff.js",
     "static/js/453.cd09d108.chunk.js": "/react-web/static/js/453.cd09d108.chunk.js",
     "static/media/Banner-3.jpg": "/react-web/static/media/Banner-3.187441f79b2f92337801.jpg",
     "static/media/Banner-1.jpg": "/react-web/static/media/Banner-1.0e7864ff811e7e85efa6.jpg",
     "static/media/Banner-2.jpg": "/react-web/static/media/Banner-2.66097026168dc66d2ed7.jpg",
-    "static/media/Resolute-UI-Banner-1.jpg": "/react-web/static/media/Resolute-UI-Banner-1.877e6822a5d4553f58ca.jpg",
     "static/media/Resolute-UI-Alok-Sir.jpg": "/react-web/static/media/Resolute-UI-Alok-Sir.53fce3c0333330c8a9ce.jpg",
     "static/media/Delhi-Toofan.jpg": "/react-web/static/media/Delhi-Toofan.a0b738e234a4b2fdaad1.jpg",
     "static/media/client-1.jpg": "/react-web/static/media/client-1.a0b738e234a4b2fdaad1.jpg",
@@ -31,12 +30,12 @@
     "static/media/slick.ttf": "/react-web/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/react-web/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/react-web/index.html",
-    "main.9f2e241c.css.map": "/react-web/static/css/main.9f2e241c.css.map",
-    "main.167e8ea9.js.map": "/react-web/static/js/main.167e8ea9.js.map",
+    "main.3b494880.css.map": "/react-web/static/css/main.3b494880.css.map",
+    "main.b558d4ff.js.map": "/react-web/static/js/main.b558d4ff.js.map",
     "453.cd09d108.chunk.js.map": "/react-web/static/js/453.cd09d108.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f2e241c.css",
-    "static/js/main.167e8ea9.js"
+    "static/css/main.3b494880.css",
+    "static/js/main.b558d4ff.js"
   ]
 }
