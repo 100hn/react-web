@@ -30,3 +30,7 @@
   .swiper-container .swiper-button-next {
     right: 10px !important;
   }
+
+  * {
+    font-family: "Poppins", sans-serif;
+  }
