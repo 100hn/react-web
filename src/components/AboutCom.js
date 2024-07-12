@@ -6,7 +6,7 @@ const AboutCom = () => {
     <div className='max-w-[1300px] m-auto py-16 px-4 grid lg:grid-cols-2 gap-6  text-white'>
         {/* left Side  */}
       <div className='grid h-full rounded-md'>
-           <img className='object-cover w-full h-full shadow-lg  bg-white rounded-md' src={about} alt='About-company'></img>
+           <img className='object-cover w-full h-full shadow-lg p-1 bg-white rounded-md' src={about} alt='About-company'></img>
       </div>
         {/* Right Side  */}
         <div className='flex flex-col h-full justify-center'>
