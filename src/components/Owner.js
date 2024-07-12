@@ -3,7 +3,7 @@ import onwerimg from '../components/Image/Resolute-UI-Alok-Sir.jpg'
 const Owner = () => {
     return (
     <div className='w-full bg-[#f4f5f6]'>
-    <div className='max-w-[1300px] m-auto py-16 px-8 grid lg:grid-cols-2 gap-4 '>
+    <div className='max-w-[1300px] m-auto py-16 px-8 grid lg:grid-cols-2 gap-6 '>
 
         {/* left Side  */}
         <div className='flex flex-col h-full justify-center '>
@@ -16,8 +16,8 @@ const Owner = () => {
             </div>
         </div>
         {/* Right Side  */}
-        <div className='grid h-full'>
-            <img className='object-cover w-full p-1 shadow-md rounded' src={onwerimg} alt='Owner Image'></img>
+        <div className='grid h-full rounded-md'>
+            <img className='object-cover w-full shadow-lg  rounded-md' src={onwerimg} alt='Owner Image'></img>
         </div>
     </div>
     </div>

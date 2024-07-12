@@ -3,10 +3,10 @@ import about from '../components/Image/Resolute-UI-About.jpg'
 const AboutCom = () => {
   return (
     <section className='bg-[#0E4669] w-full'>
-    <div className='max-w-[1300px] m-auto py-16 px-4 grid lg:grid-cols-2 gap-4  text-white'>
+    <div className='max-w-[1300px] m-auto py-16 px-4 grid lg:grid-cols-2 gap-6  text-white'>
         {/* left Side  */}
-      <div className='grid h-full'>
-           <img className='object-cover w-full h-full p-2' src={about} alt='About-company'></img>
+      <div className='grid h-full rounded-md'>
+           <img className='object-cover w-full h-full shadow-lg  bg-white rounded-md' src={about} alt='About-company'></img>
       </div>
         {/* Right Side  */}
         <div className='flex flex-col h-full justify-center'>

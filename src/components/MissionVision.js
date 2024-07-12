@@ -5,8 +5,8 @@ const MissionVision = () => {
     <section className='w-full'>
     <div className='max-w-[1300px] m-auto py-10 grid lg:grid-cols-2 gap-4  text-black'>
         {/* left Side  */}
-      <div className='grid rounded-md pr-2'>
-           <img className='object-cover w-full h-full p-2 rounded ' src={MissionVisionimg} alt='About-company'></img>
+      <div className='grid rounded-md pr-2 '>
+           <img className='object-cover w-full h-full rounded shadow-lg ' src={MissionVisionimg} alt='About-company'></img>
       </div>
         {/* Right Side  */}
         <div className='flex flex-col h-full justify-center pl-2'>
