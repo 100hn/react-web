@@ -50,8 +50,7 @@ const Insights = () => {
         {
             name: `Delhi Toofans end Kolkata Thunderbolts campaign....`,
             about: `Delhi Toofans on Sunday picked up a dominant 15-9, 16-14, 17-15 win over the Kolkata Thunderbolts 
-		    in the third season of the RuPay Prime Volleyball League at the Jawaharlal Nehru Indoor Stadium, 
-		    Chennai..<a href="https://timesofindia.indiatimes.com/sports/more-sports/others/prime-volleyball-league-delhi-toofans-end-kolkata-thunderbolts-campaign-with-dominant-win/articleshow/108184196.cms" target="_blank">Read More</a> `,
+		    in the third season of the RuPay Prime Volleyball League at the Jawaharlal Nehru Indoor....<a href="https://timesofindia.indiatimes.com/sports/more-sports/others/prime-volleyball-league-delhi-toofans-end-kolkata-thunderbolts-campaign-with-dominant-win/articleshow/108184196.cms" target="_blank">Read More</a> `,
             author: `The Times Of India`,
             date: `Mar 03, 2024`
         },
@@ -66,7 +65,7 @@ const Insights = () => {
         {
             name: `Prime Volleyball League: Delhi Toofans eliminate Defenders..`,
             about: `Chennai: Delhi Toofans reached the final of the Prime Volleyball League after a dramatic five-set win 
-		  (15-9, 10-15, 10-15, 15-12, 17-15) over Ahmedabad Defenders in the Eliminator at the Jawaharlal Nehru... 
+		  (15-9, 10-15, 10-15, 15-12, 17-15) over Ahmedabad Defenders in the Eliminator at the Jawaharlal.... 
 		  <a href="https://www.onmanorama.com/sports/other-sports/2024/03/19/prime-volleyball-league-delhi-toofans-vs-ahmedabad-defenders.html" target="_blank">Read More</a>`,
             author: `Onmanorama`,
             date: `Mar 19, 2024`
@@ -82,8 +81,8 @@ const Insights = () => {
         {
             name: `Fresh-faced Delhi Toofans trumps odds to enter title clash`,
             about: `Led by the seasoned Indian international Saqlain Tariq, who is also making his PVL debut, 
-			the team defied all odds by entering the final...
-		    <a href="https://sportstar.thehindu.com/volleyball/pvl-2024-delhi-toofans-pro-volleyball-league-calicut-heroes-final-maiden-season/article67971123.ece" target="_blank">Read More</a>`,
+			the team defied all odds by entering the final,Successfully  ......  
+		    <a href="https://sportstar.thehindu.com/volleyball/pvl-2024-delhi-toofans-pro-volleyball-league-calicut-heroes-final-maiden-season/article67971123.ece" target="_blank"><span className="font-bold text-black underline">Read More</span></a>`,
             author: `SportStar`,
             date: `Mar 20, 2024`
         }
@@ -98,8 +97,8 @@ const Insights = () => {
                     {data.map((d, index) => (
                         <div key={index} className='bg-[#0E4669] h-full text-white rounded-xl'>
                             <div className='flex flex-col justify-center text-left gap-4 p-4 '>
-                                <h5 className='text-xl font-semibold '>{d.name}</h5>
-                                <p className='text-sm' dangerouslySetInnerHTML={{ __html: d.about }} />
+                                <h5 className='text-x font-semibold '>{d.name}</h5>
+                                <p className='text-sm h-full overflow-y-auto flex-1' dangerouslySetInnerHTML={{ __html: d.about }} />
                                 <div className='flex justify-between'>
                                     <span className=''>{`By: ${d.author}`}</span>
                                     <span>{d.date}</span>

@@ -21,8 +21,8 @@
   transform: translateY(-50%);
   z-index: 1;
   cursor: pointer;
-  width: 24px !important; /* even smaller width */
-  height: 24px !important; /* even smaller height */
+  width: 40px !important; /* even smaller width */
+  height: 30px !important; /* even smaller height */
 }
 .swiper-container .swiper-button-prev {
     left: 10px !important;
@@ -34,3 +34,18 @@
   * {
     font-family: "Poppins", sans-serif;
   }
+
+  .read-more-link {
+    font-weight: bold;
+    text-decoration: underline;
+    color: #0066cc; /* blue color */
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .read-more-link:hover {
+    color: #003399; /* darker blue color on hover */
+  }
+  :root {
+    --swiper-navigation-size: 28px !important;
+    --swiper-theme-color:#fff !important
+}

@@ -5,8 +5,8 @@ const AboutCom = () => {
     <section className='bg-[#0E4669] w-full'>
     <div className='max-w-[1300px] m-auto py-16 px-4 grid lg:grid-cols-2 gap-6  text-white'>
         {/* left Side  */}
-      <div className='grid h-full rounded-md'>
-           <img className='object-cover w-full h-full shadow-lg p-1 bg-white rounded-md' src={about} alt='About-company'></img>
+      <div className='grid h-full rounded-md overflow-hidden'>
+           <img className='object-cover w-full h-full shadow-lg p-1 bg-white rounded-md hover:scale-110 transition duration-300 ease-in-out' src={about} alt='About company'/>
       </div>
         {/* Right Side  */}
         <div className='flex flex-col h-full justify-center'>

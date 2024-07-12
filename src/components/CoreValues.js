@@ -54,9 +54,9 @@ const CoreValues = () => {
 
     return (
         <section className='w-full bg-[#F4F5F6]'>
-        <div className='max-w-[1300px] m-auto py-16 px-4 lg:grid-cols-1 gap-4 '>
-            <h1 className='text-4xl uppercase mt-10 font-bold text-center'>Core Values</h1>
-            <div className='mt-16'>
+        <div className='max-w-[1300px] m-auto py-10 px-4 lg:grid-cols-1 gap-4 '>
+            <h1 className='text-4xl uppercase font-bold text-center'>Core Values</h1>
+            <div className='m-10'>
                 <Slider {...settings}>
                     {data.map((d) => (
                         <div className='bg-[#0A235C] h-full text-white  rounded-xl'>

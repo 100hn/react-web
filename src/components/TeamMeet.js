@@ -83,8 +83,8 @@ const TeamMeet = () => {
                 <Slider {...settings}>
                     {data.map((d, index) => (
                         <div key={index} className='bg-[#F4F5F6] text-black rounded-xl'>
-                            <div className='rounded-t-xl bg-[#0E4669] flex justify-center items-center'>
-                                <img src={d.img} alt='' className='h-45 w-50 rounded'/>
+                            <div className='rounded-t-xl flex justify-center items-center'>
+                                <img src={d.img} alt='' className='md:h-45 md:w-50 w-full h-full rounded'/>
                             </div>
                             <div className='flex flex-col  gap-4 p-5 justify-center items-center'>
                                 <h5 className='text-2xl font-semibold '>{d.name}</h5>
