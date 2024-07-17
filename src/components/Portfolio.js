@@ -10,7 +10,7 @@ const Portfolio = () => {
   return (
     <section className=" bg-[#F4F5F6]">
       <div className='max-w-[1300px] mx-auto pb-6 '>
-        <div className='bg-[#0E4669] text-white py-16 px-8 pt-6 h-full md:p-6 lg:p-12'
+        <div className='bg-[#0E4669] text-white py-16 px-8 pt-6 h-410 md:p-6 lg:p-12'
         style={{
           backgroundImage: `url(${portfolioBg})`,
           backgroundSize: 'cover',
@@ -21,7 +21,7 @@ const Portfolio = () => {
            <h4 className="text-center text-xl mb-5 font-semibold">Investments with Impact</h4>
         </div>
      
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 rounded pt-6 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2 rounded pt-6 ">
         <div className='bg-white rounded items-center justify-center'>
           <a href="#" className="block">
             <img src={sanghi} alt="Sanghi-Cement" className="object-cover transition duration-300 ease-in rounded" />
@@ -36,7 +36,7 @@ const Portfolio = () => {
         
         <div className='bg-white rounded'>
           <a href="#" className="block">
-            <img src={ShareSquare} alt="Samruddhi" className="h-full object-cover transition duration-300 ease-in-out" />
+            <img src={ShareSquare} alt="Samruddhi" className="object-cover transition duration-300 ease-in-out" />
           </a>
           <div className="p-5">
             <h2 className="text-2xl font-bold mb-5">ShareSquare</h2>
@@ -54,7 +54,7 @@ const Portfolio = () => {
 
         <div className='bg-white rounded'>
           <a href="https://hairdramacompany.com/" target='blank' className="block">
-            <img src={HDC} alt="HairDrama" className=" h-full object-cover transition duration-300 ease-in-out" />
+            <img src={HDC} alt="HairDrama" className="object-cover transition duration-300 ease-in-out" />
           </a>
           <div className="p-5">
             <h2 className="text-2xl font-bold mb-5">Hair Drama Co.</h2>
@@ -74,7 +74,7 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div className='bg-white rounded w-full h-full'>
+        <div className='bg-white rounded'>
           <a href="#" className="block">
             <img src={DT} alt="Delhi Toofans" className="object-cover transition duration-300 ease-in-out" />
           </a>
