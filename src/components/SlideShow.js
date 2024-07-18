@@ -21,11 +21,11 @@ const SlideShow = () => {
       slidesPerView={1}
       autoplay={{
         enabled: true,
-        delay: 2000,
+        delay: 3000,
         disableOnInteraction: false,
       }}
       loop={true}
-      speed={3000}
+      speed={4000}
       onSlideChange={() => console.log('slide change')}
       onSwiper={(swiper) => console.log(swiper)}
       pagination={{ clickable: true }}
