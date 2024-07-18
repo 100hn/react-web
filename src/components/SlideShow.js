@@ -14,6 +14,35 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 const SlideShow = () => {
+  const swiperSlides = document.querySelectorAll('.swiper-slide');
+  const navButtons = document.querySelectorAll('.swiper-button-prev, .swiper-button-next');
+  
+  swiperSlides.forEach((slide) => {
+    slide.addEventListener('mouseover', () => {
+      navButtons.forEach((button) => {
+        button.style.opacity = 1;
+      });
+    });
+  
+    slide.addEventListener('mouseout', () => {
+      navButtons.forEach((button) => {
+        button.style.opacity = 0;
+      });
+    });
+  });
+  
+  navButtons.forEach((button) => {
+    button.addEventListener('mouseover', () => {
+      button.style.opacity = 1;
+    });
+  
+    button.addEventListener('mouseout', (e) => {
+      if (!e.relatedTarget || !e.relatedTarget.classList.contains('swiper-button-prev') && !e.relatedTarget.classList.contains('swiper-button-next')) {
+        button.style.opacity = 0;
+      }
+    });
+  });
+
   return (
     <Swiper
       modules={[Pagination, Autoplay, Navigation ]}
