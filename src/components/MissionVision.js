@@ -5,11 +5,11 @@ const MissionVision = () => {
     <section className='w-full'>
     <div className='max-w-[1300px] m-auto py-10 grid lg:grid-cols-2 gap-4  text-black'>
         {/* left Side  */}
-      <div className='grid rounded-md pr-2 '>
+      <div className='grid rounded-md pr-2 px-10'>
            <img className='object-cover w-full h-full rounded shadow-lg ' src={MissionVisionimg} alt='About-company'></img>
       </div>
         {/* Right Side  */}
-        <div className='flex flex-col h-full justify-center pl-2'>
+        <div className='flex flex-col h-full justify-center pl-2 px-10'>
             <div className='mb-3'>
                <h3 className='text-3xl md:text-3xl font-bold text-left pb-4'>Mission</h3>
                <p className='text-x py-2 text-justify'>Our mission is to leverage our unparalleled expertise for creating global investment opportunities. 
