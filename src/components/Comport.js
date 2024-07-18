@@ -17,28 +17,28 @@ const Comport = () => {
       </div>
       <div className="max-w-[1300px] mx-auto p-2 pt-5 md:p-3 lg:p-1">
         <div className="grid md:grid-cols-4 gap-12 justify-center relative md:top-[-100px]">
-          <div className="relative h-350 bg-cover bg-center rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out cursor-pointer">
+          <div className="relative h-350 bg-cover bg-center border-[2px] border-[#0A235C] rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out cursor-pointer">
             <div className="relative h-full overflow-hidden">
               <Link href='/portfolio'>
                <img src={Sanghi} alt="Sanghi Industries Ltd. logo" className="w-full h-full object-cover transition duration-300 ease-in-out" />
               </Link>
             </div>
           </div>
-          <div className="relative h-350 bg-cover bg-center rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out cursor-pointer">
+          <div className="relative h-350 bg-cover bg-center border-[2px] border-[#0A235C]  rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out cursor-pointer">
             <div className="relative h-full overflow-hidden">
               <a href='/portfolio'>
                 <img src={shareSquare} alt="ShareSquare logo" className="w-full h-full object-cover transition duration-300 ease-in-out" />
               </a>
             </div>
           </div>
-          <div className="relative h-350 bg-cover bg-center rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out cursor-pointer">
+          <div className="relative h-350 bg-cover bg-center border-[2px] border-[#0A235C] rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out cursor-pointer">
             <div className="relative h-full overflow-hidden">
               <a href='/portfolio'>
                <img src={HDC} alt="HDC logo" className="w-full h-full object-cover transition duration-300 ease-in-out" />
               </a>
             </div>
           </div>
-          <div className="relative h-350 bg-cover bg-center rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out cursor-pointer">
+          <div className="relative h-350 bg-cover bg-center border-[2px] border-[#0A235C]  rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out cursor-pointer">
             <div className="relative h-full overflow-hidden">
               <a href='/portfolio'>
                 <img src={Delhi} alt="Delhi logo" className="w-full h-full object-cover transition duration-300 ease-in-out" />

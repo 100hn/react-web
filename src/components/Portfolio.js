@@ -22,7 +22,7 @@ const Portfolio = () => {
         </div>
      
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 rounded py-10 max-w-[1200px] mx-auto">
-        <div className='bg-white rounded w-[100%]'>
+        <div className='text-white bg-[#0A235C] rounded w-full'>
           <a href="#" className="block">
             <img src={sanghi} alt="Sanghi-Cement" className="object-cover w-full mx-auto transition duration-300 ease-in rounded" />
           </a>
@@ -34,7 +34,7 @@ const Portfolio = () => {
           </div>
         </div>
         
-        <div className='bg-white rounded w-full mx-auto'>
+        <div className='text-white bg-[#0A235C] rounded w-full mx-auto'>
           <a href="#" className="block">
             <img src={ShareSquare} alt="Samruddhi" className="object-cover  w-full mx-auto transition duration-300 ease-in rounded" />
           </a>
@@ -48,7 +48,7 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div className='bg-white rounded w-full mx-auto'>
+        <div className='text-white bg-[#0A235C] rounded w-full mx-auto'>
           <a href="https://hairdramacompany.com/" target='blank' className="block">
             <img src={HDC} alt="HairDrama" className="object-cover  w-full mx-auto transition duration-300 ease-in rounded" />
           </a>
@@ -70,7 +70,7 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div className='bg-white rounded w-full mx-auto'>
+        <div className='text-white bg-[#0A235C] rounded w-full mx-auto'>
           <a href="#" className="block">
             <img src={DT} alt="Delhi Toofans" className="object-cover w-full mx-auto transition duration-300 ease-in rounded" />
           </a>
