@@ -61,7 +61,7 @@ const CoreValues = () => {
                     {data.map((d) => (
                         <div className='bg-[#0A235C] h-full text-white  rounded-xl'>
 
-                            <div className='flex flex-col justify-center text-center gap-4 p-4 '>
+                            <div className='flex flex-col justify-center text-center gap-5 py-6 '>
                                 <h5 className='text-xl font-semibold '>{d.value}</h5>
                             </div>
                         </div>
