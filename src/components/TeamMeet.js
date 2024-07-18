@@ -3,7 +3,6 @@ import Slider from "react-slick";
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import dcimag from '../assets/Team/client-1.jpg'
 import dc from '../assets/Team/Dilip.jpg'
 import amrita from '../assets/Team/Amrita.jpg'
 import vivek from '../assets/Team/Vivek.jpg'
@@ -55,12 +54,6 @@ const TeamMeet = () => {
             name: `Vivek Pawar`,
             desig:'CEO HairDramaCo.',
             img: vivek,
-            about: `by scanning all of your HTML files, JavaScript components, and any other templates for class names, generating the corresponding styles and then writing them to a static CSS file.`
-        },
-        {
-            name: `Sai Prakash`,
-            desig:'CEO Resolute Sports',
-            img: dcimag,
             about: `by scanning all of your HTML files, JavaScript components, and any other templates for class names, generating the corresponding styles and then writing them to a static CSS file.`
         },
         {

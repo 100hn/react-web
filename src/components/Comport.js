@@ -47,7 +47,7 @@ const Comport = () => {
           </div>
         </div>
         <div className=' grid justify-center items-center pb-10 md:top-[-10px]'>
-           <Link to={'/portfolio'} className='text-center bg-[#0E4669] py-1 px-3 text-white rounded shadow'>View More</Link>
+           <Link to={'/portfolio'} className='text-center bg-[#0E4669] hover:bg-[#0A235C] py-1 px-3 text-white rounded shadow'>View More</Link>
         </div>
       </div>
     </section>

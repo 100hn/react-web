@@ -59,13 +59,13 @@ const Footer = () => {
         <p className="text-sm font-bold">2024 ResoluteCorp, All rights reserved</p>
         <div className="flex lg:justify-end gap-2">
           <a href="https://www.facebook.com/yourfacebookpage" target="_blank" rel="noreferrer">
-            <FaFacebook size={30} round={true} />
+            <FaFacebook size={26} round={true} />
           </a>
           <a href="https://www.linkedin.com/company/yourlinkedinpage" target="_blank" rel="noreferrer">
-            <FaLinkedin size={30} round={true} />
+            <FaLinkedin size={26} round={true} />
           </a>
           <a href="https://twitter.com/yourtwitterhandle" target="_blank" rel="noreferrer">
-            <FaInstagram size={30} round={true} />
+            <FaInstagram size={26} round={true} />
           </a>
         </div>
       </div>

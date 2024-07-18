@@ -16,7 +16,7 @@ const Career = () => {
           <p className='text-center'>We're always looking for talented individuals to help us drive our mission forward.</p>
           <div className='text-center items-center justify-center py-4'>
             <a href="/opportunities" target="_blank" rel="noopener noreferrer">
-              <button className='py-2 px-4 bg-[#036071e3] text-white hover:bg-[#ec3e64] hover:text-[#F7F7F7] transition duration-300 ease-in-out'
+              <button className='py-2 px-4 bg-[#0E4669] text-white hover:bg-[#0A235C] hover:text-[#F7F7F7] transition duration-300 ease-in-out'
               >
                 Explore the Opportunities
               </button>

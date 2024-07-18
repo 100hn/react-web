@@ -21,10 +21,10 @@ const Portfolio = () => {
            <h4 className="text-center text-xl mb-5 font-semibold">Investments with Impact</h4>
         </div>
      
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-2 rounded pt-6 ">
-        <div className='bg-white rounded items-center justify-center'>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 rounded py-10 ">
+        <div className='bg-white rounded w-[85%] mx-auto'>
           <a href="#" className="block">
-            <img src={sanghi} alt="Sanghi-Cement" className="object-cover transition duration-300 ease-in rounded" />
+            <img src={sanghi} alt="Sanghi-Cement" className="object-cover w-full mx-auto transition duration-300 ease-in rounded" />
           </a>
           <div className="p-5">
             <h2 className="text-2xl font-bold mb-5">Sanghi Industries Limited</h2>
@@ -34,9 +34,9 @@ const Portfolio = () => {
           </div>
         </div>
         
-        <div className='bg-white rounded'>
+        <div className='bg-white rounded w-[85%] mx-auto'>
           <a href="#" className="block">
-            <img src={ShareSquare} alt="Samruddhi" className="object-cover transition duration-300 ease-in-out" />
+            <img src={ShareSquare} alt="Samruddhi" className="object-cover  w-full mx-auto transition duration-300 ease-in rounded" />
           </a>
           <div className="p-5">
             <h2 className="text-2xl font-bold mb-5">ShareSquare</h2>
@@ -44,17 +44,13 @@ const Portfolio = () => {
               <p className='mb-3'>ShareSquare isn't just about investing—it's about transforming how you experience real estate. It’s a platform where luxury real estate meets accessible investing. We're redefining property ownership by offering fractional shares in premium UAE properties, making elite real estate opportunities available to everyone. At ShareSquare, you can diversify your portfolio, capitalize on property appreciation, and earn rental income with ease, no matter your investment size. 
               </p>
               <p className='mb-3'>Our platform guarantees a seamless, transparent, and secure investment experience. Powered by cutting-edge technology and market expertise, we connect you to exclusive properties and empower you with tools to optimize your returns. Whether you're a seasoned investor or new to real estate, ShareSquare promises a rewarding journey customized to your goals.</p>
-              {/* <p className='mb-3'>ShareSquare's commitment goes beyond transactions. They strive to build lasting relationships with clients, founded on trust and integrity. 
-                Their transparent approach ensures that clients are always informed and confident in their real estate journey. </p>
-              <p className='mb-3'>Discover the ShareSquare difference, where real estate aspirations become reality. Whether clients are investors looking to expand their portfolio 
-                or home seekers in search of the perfect space, ShareSquare is there to help every step of the way. Experience the pinnacle of real estate excellence with ShareSquare in Dubai. </p> */}
             </div>
           </div>
         </div>
 
-        <div className='bg-white rounded'>
+        <div className='bg-white rounded w-[85%] mx-auto'>
           <a href="https://hairdramacompany.com/" target='blank' className="block">
-            <img src={HDC} alt="HairDrama" className="object-cover transition duration-300 ease-in-out" />
+            <img src={HDC} alt="HairDrama" className="object-cover  w-full mx-auto transition duration-300 ease-in rounded" />
           </a>
           <div className="p-5">
             <h2 className="text-2xl font-bold mb-5">Hair Drama Co.</h2>
@@ -74,9 +70,9 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div className='bg-white rounded'>
+        <div className='bg-white rounded w-[85%] mx-auto'>
           <a href="#" className="block">
-            <img src={DT} alt="Delhi Toofans" className="object-cover transition duration-300 ease-in-out" />
+            <img src={DT} alt="Delhi Toofans" className="object-cover w-full mx-auto transition duration-300 ease-in rounded" />
           </a>
           <div className="p-5">
             <h2 className="text-2xl font-bold mb-5">Delhi Toofans</h2>

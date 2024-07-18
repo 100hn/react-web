@@ -12,7 +12,7 @@ const NewsLetter = () => {
             </p>
             </div>
             <div className="lg:w-1/3 w-full p-4 md:p-6 lg:p-8 text-center order-1 md:order-2">
-            <a href="mailto:your-email@example.com" className="bg-white hover:bg-[#0E4669] text-[#0E4669] hover:text-white font-bold py-2 px-4 border border-[#0E4669] rounded-full">
+            <a href="mailto:your-email@example.com" className="bg-white hover:bg-[#0A235C] text-[#0E4669] hover:text-white font-bold py-2 px-4 border border-[#0E4669] rounded-full">
                 Email Us
             </a>
             </div>
