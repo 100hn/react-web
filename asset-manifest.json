@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-web/static/css/main.d1cf5886.css",
-    "main.js": "/react-web/static/js/main.4ce9f950.js",
+    "main.css": "/react-web/static/css/main.490e819f.css",
+    "main.js": "/react-web/static/js/main.adbdef95.js",
     "static/js/453.cd09d108.chunk.js": "/react-web/static/js/453.cd09d108.chunk.js",
     "static/media/Banner-3.jpg": "/react-web/static/media/Banner-3.187441f79b2f92337801.jpg",
     "static/media/Banner-1.jpg": "/react-web/static/media/Banner-1.0e7864ff811e7e85efa6.jpg",
@@ -31,12 +31,12 @@
     "static/media/slick.ttf": "/react-web/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/react-web/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/react-web/index.html",
-    "main.d1cf5886.css.map": "/react-web/static/css/main.d1cf5886.css.map",
-    "main.4ce9f950.js.map": "/react-web/static/js/main.4ce9f950.js.map",
+    "main.490e819f.css.map": "/react-web/static/css/main.490e819f.css.map",
+    "main.adbdef95.js.map": "/react-web/static/js/main.adbdef95.js.map",
     "453.cd09d108.chunk.js.map": "/react-web/static/js/453.cd09d108.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d1cf5886.css",
-    "static/js/main.4ce9f950.js"
+    "static/css/main.490e819f.css",
+    "static/js/main.adbdef95.js"
   ]
 }
