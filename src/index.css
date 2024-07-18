@@ -49,3 +49,11 @@
     --swiper-navigation-size: 28px !important;
     --swiper-theme-color:#fff !important
 }
+
+@media screen and (max-width:600px) {
+  .swiper-button-prev,
+.swiper-button-next {
+  display: none !important;
+ }  
+}
+
