@@ -67,7 +67,7 @@ const SlideShow = () => {
             className=" w-full md:h-[700px] h-[300px] object-cover"
           />
           <div className="absolute max-w-[1300px] mx-auto md:left-[8%] top-1/2 -translate-y-1/2 p-6 text-white">
-            <h2 className="md:text-4xl font-semibold text-xl mb-2 capitalize">Fueling Innovation, <br />Empowering Tomorrow</h2>
+            <h2 className="md:text-5xl text-xl mb-2 capitalize">Fueling Innovation, <br />Empowering Tomorrow</h2>
             {/* <a href='/Pitch'>
             <button className='bg-[#0F4769] hover:bg-orange-700 text-white font-bold py-2 px-4 rounded mt-3 uppercase'>contact us</button>
             </a> */}
@@ -82,7 +82,7 @@ const SlideShow = () => {
             className="w-full md:h-[700px] h-[300px] object-cover"
           />
           <div className="absolute md:left-[9%] top-1/2 -translate-y-1/2 p-6 text-white">
-            <h2 className="md:text-4xl font-semibold mb-2 text-xl capitalize">Progress<br/> is vitality</h2>
+            <h2 className="md:text-5xl mb-2 text-xl capitalize">Progress<br/> is vitality</h2>
             
           </div>
         </div>
@@ -95,7 +95,7 @@ const SlideShow = () => {
             className="w-full md:h-[700px] h-[300px] object-cover"
           />
           <div className="absolute md:left-[9%] top-1/2 -translate-y-1/2 p-6 text-white">
-            <h2 className="md:text-4xl font-semibold mb-2 text-xl capitalize">Powering Possibilities,<br />Shaping Futures</h2>
+            <h2 className="md:text-5xl mb-2 text-xl capitalize">Powering Possibilities,<br />Shaping Futures</h2>
             
           </div>
         </div>
