@@ -72,19 +72,6 @@ const SlideShow = () => {
           </div>
         </div>
       </SwiperSlide>
-      {/* <SwiperSlide>
-        <div className="relative h-full w-full">
-          <img
-            src={image4}
-            alt="Slide 4"
-            className="w-full md:h-[700px]"
-          />
-          <div className="absolute md:left-[9%] top-1/2 -translate-y-1/2 p-6 text-[#0E4669]">
-            <h2 className="md:text-4xl font-bold mb-2 text-xl capitalize">Unleashing Excellence,<br />One Victory at a Time</h2>
-            
-          </div>
-        </div>
-      </SwiperSlide> */}
     </Swiper>
   );
 };

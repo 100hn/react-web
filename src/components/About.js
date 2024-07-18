@@ -8,7 +8,7 @@ const About = () => {
   return (
     <>
     <section className=" bg-[#F4F5F6]">
-        <div className='max-w-[1300px] mx-auto p-4 pt-6 md:p-6 lg:p-12  bg-[#0E4669] text-white'
+        <div className='mx-auto p-4 pt-6 md:p-6 lg:p-12  bg-[#0E4669] text-white'
         style={{
           backgroundImage: `url(${portfolioBg})`,
           backgroundSize: 'cover',

@@ -9,7 +9,7 @@ import portfolioBg from '../components/Image/Resolute-UI-Portfolio.jpg'
 const Portfolio = () => {
   return (
     <section className=" bg-[#F4F5F6]">
-      <div className='max-w-[1300px] mx-auto pb-6 '>
+      <div className='pb-6 '>
         <div className='bg-[#0E4669] text-white py-16 px-8 pt-6 h-410 md:p-6 lg:p-12'
         style={{
           backgroundImage: `url(${portfolioBg})`,
@@ -21,8 +21,8 @@ const Portfolio = () => {
            <h4 className="text-center text-xl mb-5 font-semibold">Investments with Impact</h4>
         </div>
      
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-10 rounded py-10 ">
-        <div className='bg-white rounded w-[85%] mx-auto'>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 rounded py-10 max-w-[1200px] mx-auto">
+        <div className='bg-white rounded w-[100%]'>
           <a href="#" className="block">
             <img src={sanghi} alt="Sanghi-Cement" className="object-cover w-full mx-auto transition duration-300 ease-in rounded" />
           </a>
@@ -34,7 +34,7 @@ const Portfolio = () => {
           </div>
         </div>
         
-        <div className='bg-white rounded w-[85%] mx-auto'>
+        <div className='bg-white rounded w-full mx-auto'>
           <a href="#" className="block">
             <img src={ShareSquare} alt="Samruddhi" className="object-cover  w-full mx-auto transition duration-300 ease-in rounded" />
           </a>
@@ -48,7 +48,7 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div className='bg-white rounded w-[85%] mx-auto'>
+        <div className='bg-white rounded w-full mx-auto'>
           <a href="https://hairdramacompany.com/" target='blank' className="block">
             <img src={HDC} alt="HairDrama" className="object-cover  w-full mx-auto transition duration-300 ease-in rounded" />
           </a>
@@ -70,7 +70,7 @@ const Portfolio = () => {
           </div>
         </div>
 
-        <div className='bg-white rounded w-[85%] mx-auto'>
+        <div className='bg-white rounded w-full mx-auto'>
           <a href="#" className="block">
             <img src={DT} alt="Delhi Toofans" className="object-cover w-full mx-auto transition duration-300 ease-in rounded" />
           </a>
