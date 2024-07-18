@@ -30,7 +30,6 @@ const SlideShow = () => {
       });
     });
   });
-  
   navButtons.forEach((button) => {
     button.addEventListener('mouseover', () => {
       button.style.opacity = 1;
