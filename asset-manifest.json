@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-web/static/css/main.d61b7488.css",
-    "main.js": "/react-web/static/js/main.4e0975cc.js",
+    "main.css": "/react-web/static/css/main.c95b3a8d.css",
+    "main.js": "/react-web/static/js/main.4d6aa689.js",
     "static/js/453.cd09d108.chunk.js": "/react-web/static/js/453.cd09d108.chunk.js",
     "static/media/Banner-3.jpg": "/react-web/static/media/Banner-3.187441f79b2f92337801.jpg",
     "static/media/Banner-1.jpg": "/react-web/static/media/Banner-1.0e7864ff811e7e85efa6.jpg",
@@ -10,6 +10,7 @@
     "static/media/Sunny.jpg": "/react-web/static/media/Sunny.eef9977c7cf0a76e51b6.jpg",
     "static/media/Resolute-UI-Alok-Sir.jpg": "/react-web/static/media/Resolute-UI-Alok-Sir.53fce3c0333330c8a9ce.jpg",
     "static/media/Delhi-Toofan.jpg": "/react-web/static/media/Delhi-Toofan.a0b738e234a4b2fdaad1.jpg",
+    "static/media/SaiPrakash.jpg": "/react-web/static/media/SaiPrakash.e61b32e38b7947772407.jpg",
     "static/media/WhatApart.jpg": "/react-web/static/media/WhatApart.4dc3ea750e3796e4962c.jpg",
     "static/media/MissionVis.jpg": "/react-web/static/media/MissionVis.8cb7ba066e10e236473c.jpg",
     "static/media/Share-Square.jpg": "/react-web/static/media/Share-Square.301a7660838d5d12b8bd.jpg",
@@ -31,12 +32,12 @@
     "static/media/slick.ttf": "/react-web/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/react-web/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/react-web/index.html",
-    "main.d61b7488.css.map": "/react-web/static/css/main.d61b7488.css.map",
-    "main.4e0975cc.js.map": "/react-web/static/js/main.4e0975cc.js.map",
+    "main.c95b3a8d.css.map": "/react-web/static/css/main.c95b3a8d.css.map",
+    "main.4d6aa689.js.map": "/react-web/static/js/main.4d6aa689.js.map",
     "453.cd09d108.chunk.js.map": "/react-web/static/js/453.cd09d108.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d61b7488.css",
-    "static/js/main.4e0975cc.js"
+    "static/css/main.c95b3a8d.css",
+    "static/js/main.4d6aa689.js"
   ]
 }
