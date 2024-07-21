@@ -36,44 +36,37 @@ const TeamMeet = () => {
         {
             name: `Dilip Chakraborty`,
             desig:'Group Accounts and Taxation',
-            img: dc,
-            about: `by scanning all of your HTML files, JavaScript components, and any other templates for class names, generating the corresponding styles and then writing them to a static CSS file.`
+            img: dc
         },
         {
             name: `Manish Kumar`,
             desig:'Group General Counsel',
-            img: manish,
-            about: `by scanning all of your HTML files, JavaScript components, and any other templates for class names, generating the corresponding styles and then writing them to a static CSS file.`
+            img: manish
         },
         {
             name: `Amrita Desai`,
             desig:'Group CHRO',
-            img: amrita,
-            about: `by scanning all of your HTML files, JavaScript components, and any other templates for class names, generating the corresponding styles and then writing them to a static CSS file.`
+            img: amrita
         },
         {
             name: `Vivek Pawar`,
             desig:'CEO HairDramaCo.',
-            img: vivek,
-            about: `by scanning all of your HTML files, JavaScript components, and any other templates for class names, generating the corresponding styles and then writing them to a static CSS file.`
+            img: vivek
         },
         {
             name: `Sunny Savani`,
             desig:'Co-Founder ShareSquare',
-            img: sunny,
-            about: `by scanning all of your HTML files, JavaScript components, and any other templates for class names, generating the corresponding styles and then writing them to a static CSS file.`
+            img: sunny
         },
         {
             name: `Shyam Savani`,
             desig:'Co-Founder ShareSquare',
-            img: shyam,
-            about: `by scanning all of your HTML files, JavaScript components, and any other templates for class names, generating the corresponding styles and then writing them to a static CSS file.`
+            img: shyam
         },
         {
             name: `Sai Prakash`,
             desig:'CEO Resolute Sports',
-            img: saiprakash,
-            about: `by scanning all of your HTML files, JavaScript components, and any other templates for class names, generating the corresponding styles and then writing them to a static CSS file.`
+            img: saiprakash
         }
     ];
 
