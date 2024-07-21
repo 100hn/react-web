@@ -1,5 +1,6 @@
 import React from 'react'
 import portfolioBg from '../components/Image/Resolute-UI-Portfolio.jpg'
+import CareerInfo from './CareerInfo'
 const Career = () => {
   return (
     <section className='bg-[#F4F5F6] w-full'>
@@ -15,7 +16,7 @@ const Career = () => {
           <h4 className="text-center text-2xl mb-1 pb-1 font-semibold">Join our team of innovators and make a difference in the world!</h4>
           <p className='text-center'>We're always looking for talented individuals to help us drive our mission forward.</p>
           <div className='text-center items-center justify-center py-4'>
-            <a href="/opportunities" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.linkedin.com/company/resolutecorp/" target="_blank" rel="noopener noreferrer">
               <button className='py-2 px-4 bg-[#0E4669] text-white hover:bg-[#0A235C] hover:text-[#F7F7F7] transition duration-300 ease-in-out'
               >
                 Explore the Opportunities
@@ -24,6 +25,7 @@ const Career = () => {
           </div>
         </div>
       </div>
+      <CareerInfo/>
     </section>
   )
 }

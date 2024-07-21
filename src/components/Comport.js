@@ -19,9 +19,9 @@ const Comport = () => {
         <div className="grid md:grid-cols-4 gap-12 justify-center relative md:top-[-100px]">
           <div className="relative h-350 bg-cover bg-center border-[2px] border-[#0A235C] rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out cursor-pointer">
             <div className="relative h-full overflow-hidden">
-              <Link href='/portfolio'>
+              <a href='/portfolio'>
                <img src={Sanghi} alt="Sanghi Industries Ltd. logo" className="w-full h-full object-cover transition duration-300 ease-in-out" />
-              </Link>
+              </a>
             </div>
           </div>
           <div className="relative h-350 bg-cover bg-center border-[2px] border-[#0A235C]  rounded-lg overflow-hidden shadow-md transition duration-300 ease-in-out cursor-pointer">

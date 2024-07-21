@@ -9,6 +9,7 @@ import vivek from '../assets/Team/Vivek.jpg'
 import manish from '../assets/Team/Manish.jpg'
 import sunny from '../assets/Team/Sunny.jpg'
 import shyam from '../assets/Team/Shyam.jpg'
+import saiprakash from '../assets/Team/SaiPrakash.jpg'
 
 const TeamMeet = () => {
     const settings = {
@@ -66,6 +67,12 @@ const TeamMeet = () => {
             name: `Shyam Savani`,
             desig:'Co-Founder ShareSquare',
             img: shyam,
+            about: `by scanning all of your HTML files, JavaScript components, and any other templates for class names, generating the corresponding styles and then writing them to a static CSS file.`
+        },
+        {
+            name: `Sai Prakash`,
+            desig:'CEO Resolute Sports',
+            img: saiprakash,
             about: `by scanning all of your HTML files, JavaScript components, and any other templates for class names, generating the corresponding styles and then writing them to a static CSS file.`
         }
     ];

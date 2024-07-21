@@ -58,13 +58,13 @@ const Footer = () => {
       <div className="lg:flex lg:justify-between lg:items-center mb-4">
         <p className="text-sm font-bold">2024 ResoluteCorp, All rights reserved</p>
         <div className="flex lg:justify-end gap-2">
-          <a href="https://www.facebook.com/yourfacebookpage" target="_blank" rel="noreferrer">
+          <a href="https://www.facebook.com/people/Resolute-Corp/61559078189329/" target="_blank" rel="noreferrer">
             <FaFacebook size={26} round={true} />
           </a>
-          <a href="https://www.linkedin.com/company/yourlinkedinpage" target="_blank" rel="noreferrer">
+          <a href="https://www.linkedin.com/company/resolutecorp/" target="_blank" rel="noreferrer">
             <FaLinkedin size={26} round={true} />
           </a>
-          <a href="https://twitter.com/yourtwitterhandle" target="_blank" rel="noreferrer">
+          <a href="https://www.instagram.com/resolute.corp/" target="_blank" rel="noreferrer">
             <FaInstagram size={26} round={true} />
           </a>
         </div>
